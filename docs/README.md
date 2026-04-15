@@ -4,24 +4,54 @@
     <span> Profiles README DIO</span>
 </h1>
 
-## Sobre o Projeto
-Página desenvolvida para fins didáticos para o curso **Contribuindo em um Projeto Open Source no GitHub** da [Digital Innovation One](https://www.dio.me/). Lembre-se de que Markdown é mais voltado para a documentação e apresentação de texto formatado, enquanto a remoção de bugs normalmente envolve a compreensão detalhada do código e o uso de ferramentas de desenvolvimento adequadas à linguagem de programação específica.
+# Contribuindo em um Projeto Open Source no GitHub
+### Lab prático — Digital Innovation One (DIO)
 
-[![Preview](https://img.shields.io/badge/Preview-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://digitalinnovationone.github.io/dio-lab-open-source/)
+---
 
+## Sobre o projeto
+
+Este repositório é um fork do projeto da DIO utilizado no lab **Contribuindo em um Projeto Open Source no GitHub**. O objetivo foi praticar o fluxo completo de contribuição em projetos open source, utilizando Git e GitHub na prática — desde o fork até o Pull Request.
+
+---
+
+## O que foi feito
+
+1. **Fork** do repositório original da DIO para a conta pessoal no GitHub
+2. **Clone** do repositório forkado para a máquina local
+3. Criação do arquivo de perfil `JuniorG09-7.md` na pasta `community/`
+4. Adição, commit e envio das alterações para o repositório remoto
+5. Abertura de **Pull Request** para o repositório original da DIO
+
+---
+
+## Comandos Git utilizados
+
+```bash
+# Clonar o repositório
+git clone <url-do-repositório>
+
+# Baixar atualizações do repositório remoto
+git pull
+
+# Adicionar arquivos à área de stage
+git add .
+
+# Salvar as alterações com uma mensagem
+git commit -m "feat: add JuniorG09-7 profile"
+
+# Enviar as alterações para o GitHub
+git push origin main
 ```
-docs/
-├── assets/
-│   ├── css/
-│   │   └── styles.css
-│   └── js/
-│       └── scripts.js
-├── favicon.ico
-├── index.html
-└── README.md
-```
+
+---
 
 ## Tecnologias
-![HTML](https://img.shields.io/badge/HTML-000?style=for-the-badge&logo=html5&logoColor=30A3DC)
-![CSS](https://img.shields.io/badge/CSS-000?style=for-the-badge&logo=css3&logoColor=E94D5F)
-![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=30A3DC)
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-0A66C2?style=for-the-badge&logo=markdown&logoColor=white)
+
+---
+
+Feito por **José Gicivaldo da Silva Santos** · [LinkedIn](https://www.linkedin.com/in/josé-gicivaldo-62478b2b0)
