@@ -19,17 +19,27 @@ Este repositório é um fork do projeto da DIO utilizado no lab **Contribuindo e
 
 1. **Fork** do repositório original da DIO para a conta pessoal no GitHub
 2. **Clone** do repositório forkado para a máquina local
-3. Criação do arquivo de perfil `JuniorG09-7.md` na pasta `community/`
-4. Adição, commit e envio das alterações para o repositório remoto
-5. Abertura de **Pull Request** para o repositório original da DIO
+3. Criação de **branch** para isolar as alterações
+4. Criação do arquivo de perfil `JuniorG09-7.md` na pasta `community/`
+5. Adição, commit e envio das alterações para o repositório remoto
+6. Abertura de **Pull Request** para o repositório original da DIO
 
 ---
 
 ## Comandos Git utilizados
 
 ```bash
-# Clonar o repositório
+# Iniciar um repositório local
+git init
+
+# Clonar o repositório forkado
 git clone <url-do-repositório>
+
+# Verificar o status dos arquivos
+git status
+
+# Listar e criar branches
+git branch
 
 # Baixar atualizações do repositório remoto
 git pull
@@ -42,6 +52,9 @@ git commit -m "feat: add JuniorG09-7 profile"
 
 # Enviar as alterações para o GitHub
 git push origin main
+
+# Visualizar o histórico de commits
+git log
 ```
 
 ---
